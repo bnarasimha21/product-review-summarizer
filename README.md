@@ -1,0 +1,1 @@
+pip install openai httpx orjson scikit-learn numpy
