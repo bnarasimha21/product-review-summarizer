@@ -1,4 +1,7 @@
 langchain
+langchain-core
 langchain-openai
 python-dotenv
 langgraph
+numpy
+scikit-learn>=1.2

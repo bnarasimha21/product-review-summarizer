@@ -7,9 +7,8 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 from dotenv import load_dotenv
-from langchain.tools import tool
+from langchain_core.tools import tool
 from langchain_openai import ChatOpenAI
-from langchain.agents import initialize_agent, AgentType
 from langgraph.prebuilt import create_react_agent
 
 load_dotenv()

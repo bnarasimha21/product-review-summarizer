@@ -75,10 +75,11 @@ You can customize the behavior by setting environment variables:
 ## Dependencies
 
 - `langchain`: Framework for building LLM applications
+- `langchain-core`: Provides the `@tool` decorator used by the review tools
 - `langchain-openai`: OpenAI integration for LangChain
 - `langgraph`: Graph-based agent framework
 - `python-dotenv`: Environment variable management
-- `scikit-learn`: Machine learning for clustering
+- `scikit-learn`: Machine learning for clustering (1.2 or newer, for `n_init="auto"`)
 - `numpy`: Numerical computing
 
 ## Project Structure
